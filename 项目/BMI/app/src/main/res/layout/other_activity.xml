@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffff"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="#ffff"
+    android:layout_marginTop="400dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="150dp"
+        android:background="#ffff"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/tx" />
+
+
+    <TextView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="lllll"
+        android:textColor="#ffffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/compare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:text="当 前 体 重" />
+
+    <TextView
+        android:id="@+id/weight2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="110.00"
+        android:textColor="#ffffffff"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/compare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="比目标轻3斤" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/compare"
+        android:layout_marginTop="73dp"
+        android:layout_toEndOf="@+id/weight2"
+        android:layout_toRightOf="@+id/weight2"
+        android:text="体  型"
+        android:textColor="#ff17ab92"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toLeftOf="@+id/weight2"
+        android:layout_toStartOf="@+id/weight2"
+        android:text="BMI指数"
+        android:textColor="#ff17ab92"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:numeric="decimal"
+        android:text="20"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:gravity="center_horizontal"
+        android:text="偏瘦"
+        android:textColor="#ffff"
+        android:textSize="23sp" />
+
+
+        />
+
+</RelativeLayout>
